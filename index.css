@@ -51,4 +51,7 @@ html {
 .top-load {
     display: inline-block;
 }
+.top-load h1 {
+font-size: 4rem;
+}
 
