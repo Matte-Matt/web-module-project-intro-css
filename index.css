@@ -1,17 +1,19 @@
 html {
-    background-color: whitesmoke;
+
     font-size: 62.5%;
     box-sizing: border-box;
     text-align: center;
 }
 
 body {
-    line-height: 1.5;
+    line-height: 1;
     font-size: 1.6;
+    font-family: roboto mono, 'Courier New', Courier, monospace ;
+    background-color: whitesmoke;
 }
 
 * {
-    border: solid antiquewhite 1px;
+    
     padding: 0;
     margin: 0;
     max-width: 100%;
@@ -19,40 +21,43 @@ body {
 } 
 
 .pyv {
-    margin: 0 5% 0 20%;
-    width: 5%;
-    height: 30px;
+    margin: 10px 15% 0 10%;
+    width: 120px;
+
     display:inline-block;
-    padding: 1%;
-    background-color: salmon;
-    border-radius: 30%;
+    padding: 2%;
+    border-radius: 20%;
     text-align: center;
-    font-size: 1rem;
+    font-size: 2rem;
     color: white;
+    background-color: #FF764E;
+    
 }
 .latp {
-    margin: 0 0;
-    width: 5%;
-    height: 30px;
+    margin: 10px 0;
+    width: 135px;
+
     display: inline-block;
-    padding: 1%;
-    background-color: aqua;
-    border-radius: 30%;
+    padding: 2%;
+    background-color: #5ED3EB;
+    border-radius: 20%;
     text-align: center;
-    font-size: 1rem; 
+    font-size: 2rem; 
     color: white;
+    
 }
 .gi { 
-    margin: 0 20% 0 5% ;
-    width: 5%;
-    height: 30px;
+    margin: 10px 10% 0 15% ;
+    width: 100px;
+    
     display: inline-block;
-    padding: 1%;
-    background-color: yellow;
-    border-radius: 30%;
+    padding: 2%;
+    background-color: #FFCD69;
+    border-radius: 20%;
     text-align: center;
-    font-size: 1rem;
+    font-size: 2rem;
     color: white;
+    
 }
 
 nav a {
@@ -62,38 +67,140 @@ nav a {
 
 .header-img img {
     border-radius: 50%;
-    width: 15%;
+    width: 20%;
     display: inline-block;
-    margin: 2% 5% 0 10%;
+    margin: 8% 5% 0 0%;
     
 }
 
 .top-load {
     display: inline-block;
+    
 }
 .top-load h1 {
-font-size: 6rem;
+font-size: 8rem;
+font-family: chelsea market, verdana, Geneva, Tahoma, sans-serif; 
 }
 
+
 .top-load p {
-    font-size: 2rem;
+    font-size: 4rem;
     line-height: 2;
+    padding: 2%;
+   
 }
 
 .sub-top p {
     display: inline-block;
-    font-size: 2rem;
-    width: 20%;
-    margin: 20px 0 0 30%;
+    font-size: 4rem;
+    width: 30%;
+    margin: 20px 0 0 25%;
+    
     
 }
 
 .info-load {
-    font-size: 2rem;
+    font-size: 4rem;
     text-align: center;
-    width: 50%;
-    margin: 30px 20% 30px 25%;
-    background-color: bisque;
+    width: 90%;
+    margin: 80px 10% 30px 3%;
+    padding: 2%;
+    background-color: #DDB9A3;
+    
 
 }
 
+.fire img {
+    width: 15%;
+    margin: 10px auto;
+
+}
+
+.fire-text p {
+    font-size: 2rem;
+    width: 25%;
+    margin: 20px auto;
+    
+
+}
+.fire-text span {
+    font-weight: bolder;
+    
+}
+
+.camper img {
+    width: 15%;
+    margin: 10px auto;
+
+}
+
+.camper-text p {
+    font-size: 2rem;
+    width: 25%;
+    margin: 20px auto;
+    
+}
+
+.camper-text span {
+    font-weight: bolder;
+    
+}
+
+.foot-img img {
+    margin: 60px 0 0 0;
+    width: 100%;
+    height: 60vh;
+}
+
+.bottom-pyv {
+    margin: 5px 15% 5px 10%;
+    width: 120px;
+    
+    display:inline-block;
+    padding: 2%;
+    border-radius: 20%;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    background-color: #FF764E;
+    
+}
+
+.bottom-latp {
+    margin: 5px 0 5px 0;
+    width: 135px;
+    
+    display: inline-block;
+    padding: 2%;
+    background-color: #5ED3EB;
+    border-radius: 20%;
+    text-align: center;
+    font-size: 2rem; 
+    color: white;
+    
+}
+
+.bottom-gi {
+    margin: 5px 10% 5px 15%;
+    width: 100px;
+    
+    display: inline-block;
+    padding: 2%;
+    background-color: #FFCD69;
+    border-radius: 20%;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    
+}
+a:hover {
+    color: black;
+    transition: 1s;
+}
+
+footer {
+    background-color: #F9E7DC;
+    margin: 0 auto;
+    
+
+}
